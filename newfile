@@ -1,3 +1,5 @@
-itsnet
-oo
-more
+[default]
+aws_access_key=AKIAYVP4CIPPH5TNP3SW
+aws_secret_access_key=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
+region=us-east-2
+output=json
