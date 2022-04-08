@@ -27,9 +27,9 @@ jobs:
         fetch-depth: 0
         ref: ${{ github.head_ref }}
     - name: Dogfood
-      uses: ./
+      uses: trufflesecurity/trufflehog@refs/heads/add_action
       id: dogfood
       with:
-        path: trufflesecurity/trufflehog@refs/heads/add_action
+        path: ./
         base: ${{ github.event.repository.default_branch }}
         head: HEAD
